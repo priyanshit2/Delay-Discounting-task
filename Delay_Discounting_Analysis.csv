@@ -1,0 +1,9 @@
+Item,Description
+Sampling method,"Random sampling without replacement, stratified by participant"
+Random seed,20261123
+Sample size,300 valid trials
+Allocation,75 trials from each of 4 participants
+Choice coding,t = smaller immediate reward; l = larger delayed reward
+K calculation,K = (future reward / immediate reward - 1) / delay in days
+Participant k estimate,"For each participant, select offer whose observed later-choice rate is closest to 50%; calculate K for that offer"
+Group estimate,Geometric mean of the four participant-level estimated k values
